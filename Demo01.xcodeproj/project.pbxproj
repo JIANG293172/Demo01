@@ -18,6 +18,7 @@
 		5C6760E9251C32FC003D3F2A /* Demo01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6760E8251C32FC003D3F2A /* Demo01Tests.m */; };
 		5C6760F4251C32FC003D3F2A /* Demo01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6760F3251C32FC003D3F2A /* Demo01UITests.m */; };
 		5C676104251C9A17003D3F2A /* JTMultithreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C676103251C9A17003D3F2A /* JTMultithreading.m */; };
+		5C676113251DBACC003D3F2A /* JTDownPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C676112251DBACC003D3F2A /* JTDownPicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,9 @@
 		5C6760F5251C32FC003D3F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C676102251C9A16003D3F2A /* JTMultithreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMultithreading.h; sourceTree = "<group>"; };
 		5C676103251C9A17003D3F2A /* JTMultithreading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMultithreading.m; sourceTree = "<group>"; };
+		5C67610C251C9EA3003D3F2A /* JTDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTDefines.h; sourceTree = "<group>"; };
+		5C676111251DBACC003D3F2A /* JTDownPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDownPicViewController.h; sourceTree = "<group>"; };
+		5C676112251DBACC003D3F2A /* JTDownPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDownPicViewController.m; sourceTree = "<group>"; };
 		6933364FD478B0413152DE1C /* Pods-Demo01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo01.debug.xcconfig"; path = "Target Support Files/Pods-Demo01/Pods-Demo01.debug.xcconfig"; sourceTree = "<group>"; };
 		924F2EEC96E7D7FC3665A608 /* Pods-Demo01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo01.release.xcconfig"; path = "Target Support Files/Pods-Demo01/Pods-Demo01.release.xcconfig"; sourceTree = "<group>"; };
 		A736E55706CC54FBE73AFD09 /* libPods-Demo01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +130,10 @@
 				5C6760CD251C32F9003D3F2A /* AppDelegate.m */,
 				5C6760CF251C32F9003D3F2A /* SceneDelegate.h */,
 				5C6760D0251C32F9003D3F2A /* SceneDelegate.m */,
+				5C67610C251C9EA3003D3F2A /* JTDefines.h */,
 				5C6760D2251C32F9003D3F2A /* ViewController.h */,
 				5C6760D3251C32F9003D3F2A /* ViewController.m */,
+				5C676105251C9E47003D3F2A /* 下载 */,
 				5C676101251C99FB003D3F2A /* 多线程 */,
 				5C6760D5251C32F9003D3F2A /* Main.storyboard */,
 				5C6760D8251C32FC003D3F2A /* Assets.xcassets */,
@@ -163,6 +169,15 @@
 				5C676103251C9A17003D3F2A /* JTMultithreading.m */,
 			);
 			path = "多线程";
+			sourceTree = "<group>";
+		};
+		5C676105251C9E47003D3F2A /* 下载 */ = {
+			isa = PBXGroup;
+			children = (
+				5C676111251DBACC003D3F2A /* JTDownPicViewController.h */,
+				5C676112251DBACC003D3F2A /* JTDownPicViewController.m */,
+			);
+			path = "下载";
 			sourceTree = "<group>";
 		};
 		8DE47B97F7553F1536A766D6 /* Pods */ = {
@@ -333,6 +348,7 @@
 				5C676104251C9A17003D3F2A /* JTMultithreading.m in Sources */,
 				5C6760D4251C32F9003D3F2A /* ViewController.m in Sources */,
 				5C6760CE251C32F9003D3F2A /* AppDelegate.m in Sources */,
+				5C676113251DBACC003D3F2A /* JTDownPicViewController.m in Sources */,
 				5C6760DF251C32FC003D3F2A /* main.m in Sources */,
 				5C6760D1251C32F9003D3F2A /* SceneDelegate.m in Sources */,
 			);
